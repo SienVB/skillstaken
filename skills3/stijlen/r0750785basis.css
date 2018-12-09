@@ -18,11 +18,12 @@ p {
 
 #container {
     background-color: #0a8ebf;
-    color: #red;
+    color: black;
 }
 
 nav a {
     text-decoration: none;
+    color: red;
 }
 
 nav a:hover {
@@ -41,4 +42,20 @@ footer {
 
 #luxe {
     display: none;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+nav li{
+    list-style-type: none;
+    
+}
+
+nav {
+    background-color: yellow;
 }

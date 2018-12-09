@@ -16,8 +16,48 @@
 #container {
     background-color: #fff;
     color: #000;
+    width: 900px;
+    margin: auto;
+
 }
 
 h2 {
     font-family: 'Noto Serif TC', serif;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+nav li {
+    list-style-type: none;
+
+}
+
+nav {
+    background-color: white;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #be7e7e;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.geheel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+p {
+    flex-basis: 30%;
+
 }
